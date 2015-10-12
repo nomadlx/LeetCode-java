@@ -1,6 +1,9 @@
 # LeetCode-java
 刷leetcode上面的题,用java语言写的
 
+## #1
+这一部分是之前写的,代码暂时不贴
+
 ## #2 Add Two Numbers
 > You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 > 
