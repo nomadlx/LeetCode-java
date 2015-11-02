@@ -32,3 +32,16 @@
 > There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
 [查看LeetCode题目](https://leetcode.com/problems/median-of-two-sorted-arrays/) [我的代码](https://github.com/nomadlx/LeetCode-java/blob/master/src/nomadlx/leetcode/_04MedianofTwoSortedArrays/Solution.java)
+
+## 题目5 ZigZag Conversion
+> The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility) 
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows: 
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR". 
+Subscribe to see which companies asked this question
+
+[查看LeetCode题目](https://leetcode.com/problems/zigzag-conversion/) [我的代码](https://github.com/nomadlx/LeetCode-java/blob/master/src/nomadlx/leetcode/_05ZigZagConversion/Solution.java)
