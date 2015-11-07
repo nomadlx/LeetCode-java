@@ -1,13 +1,14 @@
-package nomadlx.leetcode._05ZigZagConversion;
+package nomadlx.leetcode._06ZigZagConversion;
 
 import java.util.Scanner;
 
 public class Solution {
-	
+
 	public static String convert(String s, int numRows) {
 		int c = numRows * 2 - 2 == 0 ? 1 : numRows * 2 - 2;
 		int OLOC = 0;
 		String ns = "";
+		// 添加每一行的字符
 		for (int i = 0; i < numRows; i++) {
 			int LOC = OLOC;
 			if (OLOC == 0 || OLOC * 2 == c) {
